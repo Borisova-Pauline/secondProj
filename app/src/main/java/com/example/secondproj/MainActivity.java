@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             tv.setText(firstCount.toString());
         }
         if(savedInstance!=null && savedInstance.containsKey("count2")){
-            firstCount=savedInstance.getInt("count2");
+            secondCount=savedInstance.getInt("count2");
             TextView tv = findViewById(R.id.blue_count);
             tv.setText(secondCount.toString());
         }
